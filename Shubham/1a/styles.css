@@ -1,0 +1,31 @@
+.side-bar {
+  width: 30%;
+  border: 2px solid red;
+  height: 100vh;
+}
+.show {
+  display: none;
+}
+
+.toggle-btn {
+  display: none;
+}
+
+.bro {
+  width: 70%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+.cus-table {
+  width: 100%;
+  border: 2px solid green;
+}
+
+@media screen and (max-width: 768px) {
+  .toggle-btn {
+    display: block;
+  }
+}

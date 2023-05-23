@@ -1,0 +1,16 @@
+.exp {
+  background-color: gold;
+  color: black;
+  font-size: 2rem;
+}
+a {
+  color: brown;
+}
+
+ul {
+  list-style-type: square;
+}
+
+td {
+  background-color: greenyellow;
+}

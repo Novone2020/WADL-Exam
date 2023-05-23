@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1b Practice</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="table_container">
+        <button class="add_user" id="add_user">Add User</button>
+        <table>
+          <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+      <div class="modal_container" id="modal_container">
+        <div class="modal">
+          <button class="close_btn" id="close_btn">X</button>
+          <form class="modal_form">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+            />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <label for="age">Age:</label>
+            <input
+              type="text"
+              id="age"
+              name="age"
+              placeholder="Enter your age"
+            />
+            <button type="submit" class="submit_btn" id="submit_btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
